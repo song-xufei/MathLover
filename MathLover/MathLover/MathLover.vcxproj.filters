@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{3992ad4a-d22e-458b-a80f-956aca6218f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\MVector">
+      <UniqueIdentifier>{ad53e4b0-989d-4fc3-bc34-dd6078a46f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\MMatrix">
+      <UniqueIdentifier>{19951881-3dde-459a-a025-1384eb9614ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\CommonUtil">
+      <UniqueIdentifier>{e61037f1-d84c-4027-ba45-210ecfb30590}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MVector.h">
+      <Filter>源文件\src\MVector</Filter>
+    </ClInclude>
+    <ClInclude Include="MMatrix.h">
+      <Filter>源文件\src\MMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Default.h">
+      <Filter>源文件\src\CommonUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
