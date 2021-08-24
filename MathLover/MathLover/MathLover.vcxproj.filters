@@ -30,6 +30,12 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MVectorHelper.cpp">
+      <Filter>源文件\src\MVector</Filter>
+    </ClCompile>
+    <ClCompile Include="MHelper.cpp">
+      <Filter>源文件\src\CommonUtil</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MVector.h">
@@ -39,6 +45,12 @@
       <Filter>源文件\src\MMatrix</Filter>
     </ClInclude>
     <ClInclude Include="Default.h">
+      <Filter>源文件\src\CommonUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="MVectorHelper.h">
+      <Filter>源文件\src\MVector</Filter>
+    </ClInclude>
+    <ClInclude Include="MHelper.h">
       <Filter>源文件\src\CommonUtil</Filter>
     </ClInclude>
   </ItemGroup>
